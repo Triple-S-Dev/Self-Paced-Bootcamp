@@ -11,4 +11,3 @@
 9. JavaScript Testing
 10. Regular Expression in JavaScript
 11. Event Handling
-12. Exercies in https://www.udemy.com/share/101WU03@GzDhFwMsPSfaB-QCGPxRHPX_48jzO5_vKC7OyXJLspudtKAmv_iFutOUgfk0kC82Yg==/https://www.udemy.com/share/101WU03@GzDhFwMsPSfaB-QCGPxRHPX_48jzO5_vKC7OyXJLspudtKAmv_iFutOUgfk0kC82Yg==/
