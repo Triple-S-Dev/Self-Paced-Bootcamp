@@ -1,4 +1,5 @@
 # Self-Paced-Bootcamp
+# 100 Days Of Learning To Become A Full Stack JavaScript Developer
 
 My own road to become a full stack JavaScript Developer
 
@@ -18,4 +19,3 @@ Technology Stack:
 12. Sequelize
 13. Docker
 14. AWS
-15. React Native
