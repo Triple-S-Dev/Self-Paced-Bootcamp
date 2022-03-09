@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operator-In JavaScript</title>
+</head>
+<body>
+<script>
+    //in operator
+    const person = {
+        firstName: "Eko",
+            lastname: "Kurniawan"
+    }
+    if("firstName" in person){
+        alert(`Hello ${person.firstName}`)
+    }else{
+        alert("NOOOO")
+    }
+
+
+//    Nilai dari property null atau undefined akan tetap ada karena in operator mengecek property
+    const student = {
+        firstName: "Eko",
+        grade: undefined,
+        class: null
+    }
+    if("grade" in student){
+        alert(`Hello ${student.grade}`)
+    }else{
+        alert("Hello Student")
+    }
+
+    const namess = [null, "Eko", null]
+    const result = 0 in namess
+    document.writeln(result)
+</script>
+</body>
+</html>

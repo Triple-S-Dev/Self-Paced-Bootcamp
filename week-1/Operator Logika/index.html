@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operator Logika di Non Boolean JavaScript</title>
+</head>
+<body>
+<script>
+    // Operator Logika di Non Boolean
+
+    // Operator OR (||) di Non Boolean
+    // jika keduanya falsy, maka yang diambil yang paling kanan
+    console.info("Hello" || "")
+    console.info("HELLO" || "hello")
+    console.info("" || [])
+    console.info("" || '') // empty string atau kosong
+    console.info(0 || 21.212)
+
+    const person = {
+        firstName: "Eko",
+        lastName: "Kurniawan"
+    }
+
+    const name = person.firstName || person.lastName
+    document.writeln(name)
+
+    // Operator AND (&&) di Non Boolean
+    // Operator ini akan mengambil nilai pertama yang falsy
+    // kalau tidak ada yang bernilai falsy, maka yang terakhir akan diambil
+
+    console.info("Hello" && "") // empty string atau kosong yang diambil (karena mengambil yang falsy)
+    console.info(0 && true)
+    console.info("Hello" && "HELLO") // Mengambil yang paling akhir karena kedua nilai bersifat truthy
+
+
+</script>
+</body>
+</html>
