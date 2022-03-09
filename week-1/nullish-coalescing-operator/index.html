@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ternary Oerator JavaScript</title>
+</head>
+<body>
+<script>
+    // Nullish Coalescing Operator
+    // Nullist value adalah null dan undefined
+    // Nullist coalescing operator (??) adalah operator mirip dengan ternary operator, yang membedakan adalah pada kondisi, jika bernilai null atau undefined, baru value defaultnya diambil
+
+
+    let parameter;
+
+    let data = parameter
+
+    if(data === undefined || data == null){
+        data = "data ini default"
+    }
+
+    document.writeln(data)
+
+    document.writeln("</br>")
+//    nullish Coalescing Operator
+    let params = "ini ada isinya";
+    let datas = params ?? "Data ini default juga"
+    document.writeln(datas)
+</script>
+</body>
+</html>

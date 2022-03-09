@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Of JavaScript</title>
+</head>
+<body>
+<script>
+
+    // For Of
+    // for of digunakan untuk melakukan iterasi terhadap isi value dari object. seperti array, string dan lain lain
+    // for of tidak bisa digunakan untuk melakukan iterasi data di object, karena bukanlah iterable
+
+    const names = ["Gamalliel", "Sharon", "Saragih"]
+    for (const name of names){
+        document.writeln(`<p>${name}</p>`)
+    } // mengambil value dari propertynya
+
+    const fullName = "Gamalliel Sharon Saragih"
+    for (const char of fullName){
+        document.writeln(`<o>${char}</o>`)
+    }
+
+
+    //INI TIDAK BISA KARENA OBJECT ITU NON ITERABLE
+    // const person = {
+    //     firstName: "Eko",
+    //     lastName: "Kurniawan"
+    // }
+    // for (const persons of person){
+    //     document.writeln(`<o>${persons}</o>`)
+    // }
+
+</script>
+</body>
+</html>

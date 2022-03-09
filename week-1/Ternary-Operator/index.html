@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ternary Oerator JavaScript</title>
+</head>
+<body>
+<script>
+    //Ternary Operator
+//    operator sederhana dari if statement
+
+//    COntoh if statement
+    const nilai = 80
+    let ucapan;
+
+    if(nilai >= 75){
+        ucapan = "Selamat Anda Lulus"
+    }else{
+        ucapan = "silakan coba lagi"
+    }
+
+    document.writeln(`<p>${ucapan}</p>`)
+
+// Dengan menggunakan ternary operator
+    const grade = "A"
+    const ucongrats = grade === "A" ? "Selamat nilai kamu memuuaskan" : "Kamu belum lulus nihh"
+
+    document.writeln(`<p>${ucongrats}</p>`)
+</script>
+</body>
+</html>

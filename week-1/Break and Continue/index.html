@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>While Loop JavaScript</title>
+</head>
+<body>
+<script>
+
+    // Break and Continue
+    // Break => Menghentikan perulangan
+    // Continue => Menghentikan perulangan saat ini, dan melanjutkan perulangan selanjuntnya
+
+    // contoh break
+    let counter = 1
+    while (true){
+        document.writeln(`<p>Perulangan ke ${counter}</p>`)
+        counter++
+
+        if(counter > 10){
+            break
+        }
+    }
+
+    // contoh continue
+    for (let i = 1; i<=100; i++){
+        if( i %2=== 0){
+            continue;
+        }
+        document.writeln(`<p>Perulangan ke ${i}</p>`)
+    }
+
+    // label
+    // loopi: //label untuk perulangan i
+    // for (let i = 0; i<=10; i++){
+    //     loopj: // label untuk perulangan j
+    //     for (let j = 0; j<=10; j++){
+    //         document.writeln(`<p>${i} == ${j}</p>`)
+    //     }
+    // }
+
+    for(let i=0; i<=2; i++){
+        for(let j=0; j<=10; j++){
+            document.writeln(`<p>${j}</p>`)
+        }
+        // document.writeln(`<p>${i}</p>`)
+    }
+
+
+</script>
+</body>
+</html>
